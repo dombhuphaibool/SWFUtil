@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWFUtil", "SWFUtil.vcproj", "{9CA987CA-3FE7-4937-96B4-F55696921545}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D} = {4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\..\FlashPrinter\src\zlib\projects\visualc6\zlib.vcproj", "{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = SWFUtil.vcproj
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Profile = Profile
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9CA987CA-3FE7-4937-96B4-F55696921545}.Debug.ActiveCfg = Debug|Win32
+		{9CA987CA-3FE7-4937-96B4-F55696921545}.Debug.Build.0 = Debug|Win32
+		{9CA987CA-3FE7-4937-96B4-F55696921545}.Profile.ActiveCfg = Release|Win32
+		{9CA987CA-3FE7-4937-96B4-F55696921545}.Profile.Build.0 = Release|Win32
+		{9CA987CA-3FE7-4937-96B4-F55696921545}.Release.ActiveCfg = Release|Win32
+		{9CA987CA-3FE7-4937-96B4-F55696921545}.Release.Build.0 = Release|Win32
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}.Debug.ActiveCfg = Debug|Win32
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}.Debug.Build.0 = Debug|Win32
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}.Profile.ActiveCfg = Profile|Win32
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}.Profile.Build.0 = Profile|Win32
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}.Release.ActiveCfg = Release|Win32
+		{4D3DC21E-DAA4-4225-866D-6FFC0012FD0D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
